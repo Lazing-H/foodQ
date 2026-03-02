@@ -20,7 +20,7 @@ window.addEventListener('error', function (event) {
 Vue.use(ElementUI)
 
 // 配置axios
-axios.defaults.baseURL = 'https://api.lhcj.xyz/api'
+axios.defaults.baseURL = '/api'
 axios.defaults.timeout = 10000
 
 // 请求拦截器
